@@ -13,14 +13,14 @@ namespace medailles_opdracht
         static void Main(string[] args)
         {
             //medailles_opdracht 1
-            //Console.WriteLine("wat is je naam");
-           // string naam = Console.ReadLine();
-           // Console.WriteLine("wat is je leeftijd");
-           // string leeftijd = Console.ReadLine();
-           // Console.WriteLine("Hoi [naam], je bent [leeftijd] jaar oud!");
-                
-        
-           
+            Console.WriteLine("wat is je naam");
+            string naam = Console.ReadLine();
+            Console.WriteLine("wat is je leeftijd");
+            string leeftijd = Console.ReadLine();
+            Console.WriteLine($"Hoi {naam}, je bent {leeftijd} jaar oud!");
+
+
+
 
         }
     }
